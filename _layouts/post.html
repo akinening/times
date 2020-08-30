@@ -37,12 +37,12 @@
                     {{ content }}
                 </div>
             </article>
-        </div>
-    </div>
 
-    <div class="control pd-layout">
-        <a href="">つぎ</a>
-        <a href="">まえ</a>
+            <div class="control">
+                <a href="">つぎ</a>
+                <a href="">まえ</a>
+            </div>
+        </div>
     </div>
 </body>
 <style type="text/css">
@@ -119,17 +119,18 @@ a {
 }
 
 .hub-body {
-    display: flex;
     margin-top: -64px;
+    width: 100%;
+    max-width: 624px;
 }
 
 .article {
-    width: calc(100%);
-    max-width: 624px;
+    width: 100%;
     padding: 32px;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0px 4px 24px rgba(0,0,0,0.08);
+    box-sizing: border-box;
 }
 
 .article-content {
