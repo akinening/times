@@ -39,6 +39,11 @@
             </article>
         </div>
     </div>
+
+    <div class="control">
+        <a href="{{ paginator.next_page }}">つぎ</a>
+        <a href="{{ paginator.previous_page }}">まえ</a>
+    </div>
 </body>
 <style type="text/css">
 body {
@@ -119,7 +124,7 @@ a {
 }
 
 .article {
-    width: calc(100% - 304px - 32px);
+    width: calc(100%);
     max-width: 624px;
     padding: 32px;
     background-color: #fff;
@@ -146,6 +151,10 @@ a {
     width: calc(100% - 64px);
     margin: 16px auto;
     border-radius: 8px;
+}
+
+.control {
+    display: flex;
 }
 </style>
 
