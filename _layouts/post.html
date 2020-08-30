@@ -28,6 +28,7 @@
             あばうと
         </a>
     </nav>
+    <span class="bg-nav"></span>
 
     <div class="pd-layout">
         <div class="hub-body">
@@ -106,14 +107,24 @@ a {
     font-weight: 700;
 }
 
+.bg-nav {
+    display: block;
+    height: 80px;
+    background-color: #febf1b;
+}
+
 .hub-body {
     display: flex;
-    margin-top: 44px;
+    margin-top: -64px;
 }
 
 .article {
     width: calc(100% - 304px - 32px);
     max-width: 624px;
+    padding: 16px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 24px rgba(0,0,0,0.08);
 }
 
 .article-content {
