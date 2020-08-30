@@ -40,9 +40,9 @@
         </div>
     </div>
 
-    <div class="control">
-        <a href="{{ page.next }}">つぎ</a>
-        <a href="{{ page.previous }}">まえ</a>
+    <div class="control pd-layout">
+        <a href="">つぎ</a>
+        <a href="">まえ</a>
     </div>
 </body>
 <style type="text/css">
@@ -155,12 +155,19 @@ a {
 
 .control {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 44px 0 32px;
 }
 .control a {
     display: block;
-    width: calc(50% - 16px);
-    height: 44px;
+    width: calc(50% - 48px);
+    padding: 16px;
     background-color: #febf1b;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
 }
 </style>
 
