@@ -134,10 +134,12 @@
         </div>
     </div>
 
+    {{ site.posts }}
+
     <ul>
         {% for post in site.pages %}
         <li>
-            {{ post }}
+            <a href="./{{ post.path }}">{{ post.title }}</a>
         </li>
         {% endfor %}
     </ul>
