@@ -134,7 +134,13 @@
         </div>
     </div>
 
-    {{ site.pages }}
+    <ul>
+        {% for post in site.pages %}
+        <li>
+            <a href="{{ post.url }}">{{ post.date | date_to_long_string }} : {{ post.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
 </body>
 <style type="text/css">
 body {
