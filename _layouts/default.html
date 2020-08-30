@@ -32,8 +32,7 @@
     <div class="pd-layout">
         <div class="hub-body">
             <article class="article">
-                <h1 class="article-title">たいとる</h1>
-                <div class="article-text">
+                <div class="article-content">
                     {{ content }}
                 </div>
             </article>
@@ -52,118 +51,117 @@
     </div>
 </body>
 <style type="text/css">
-    body {
-        font-family: "Helvetica Neue",
-            Arial,
-            "Hiragino Kaku Gothic ProN",
-            "Hiragino Sans",
-            Meiryo,
-            sans-serif;
-    }
+body {
+    font-family: "Helvetica Neue",
+        Arial,
+        "Hiragino Kaku Gothic ProN",
+        "Hiragino Sans",
+        Meiryo,
+        sans-serif;
+}
 
-    body,
-    p,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        margin: 0;
-    }
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
 
-    ul {
-        margin: 0;
-        padding: 0;
-    }
+ul {
+    margin: 0;
+    padding: 0;
+}
 
-    p,
-    a,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        color: #333;
-    }
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #333;
+}
 
-    a {
-        text-decoration: none;
-    }
+a {
+    text-decoration: none;
+}
 
-    .pd-layout {
-        padding-left: 32px;
-        padding-right: 32px;
-    }
+.pd-layout {
+    padding-left: 32px;
+    padding-right: 32px;
+}
 
-    .c-header {
-        height: 88px;
-    }
+.c-header {
+    height: 88px;
+}
 
-    .c-header .logo {
-        height: 32px;
-        margin: 28px 0;
-    }
+.c-header .logo {
+    height: 32px;
+    margin: 28px 0;
+}
 
-    .c-nav {
-        background-color: #febf1b;
-    }
+.c-nav {
+    background-color: #febf1b;
+}
 
-    .c-nav .menu {
-        padding: 14px 0;
-        color: #fff;
-        font-size: 13px;
-        font-weight: 700;
-    }
+.c-nav .menu {
+    padding: 14px 0;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+}
 
-    .hub-body {
-        display: flex;
-        margin-top: 44px;
-    }
+.hub-body {
+    display: flex;
+    margin-top: 44px;
+}
 
-    .article {
-        width: calc(100% - 304px - 32px);
-        max-width: 624px;
-    }
+.article {
+    width: calc(100% - 304px - 32px);
+    max-width: 624px;
+}
 
-    .article-title {
-        margin-bottom: 44px;
-        line-height: 1.4;
-        font-weight: 700;
-    }
+.article-content {
+    font-size: 16px;
+    line-height: 1.7;
+}
+.article-content h1 {
+    margin-bottom: 44px;
+    line-height: 1.4;
+    font-weight: 700;
+}
 
-    .article-text {
-        font-size: 16px;
-        line-height: 1.7;
-    }
 
+.side {
+    /* position: sticky; */
+    width: 100%;
+    max-width: 304px;
+    margin-left: 32px;
+}
 
-    .side {
-        /* position: sticky; */
-        width: 100%;
-        max-width: 304px;
-        margin-left: 32px;
-    }
+.side-title {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
 
-    .side-title {
-        font-size: 16px;
-        font-weight: 700;
-        margin-bottom: 16px;
-    }
+.side-list .title {
+    list-style-type: none;
+    padding: 8px 0;
+    border-top: 1px solid #e8e8e8;
+    font-size: .8125rem;
+    font-weight: 700;
+    line-height: 1.65;
+}
 
-    .side-list .title {
-        list-style-type: none;
-        padding: 8px 0;
-        border-top: 1px solid #e8e8e8;
-        font-size: .8125rem;
-        font-weight: 700;
-        line-height: 1.65;
-    }
-
-    .side-list .title:first-child {
-        border-top: none;
-    }
+.side-list .title:first-child {
+    border-top: none;
+}
 </style>
 
 </html>
