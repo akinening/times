@@ -51,7 +51,7 @@
                             <div class="card-content">
                                 <h2 class="title">{{ post.title }}</h2>
                                 <p class="description">
-                                    {{ post.excerpt }}
+                                    {{ post.content | strip_html | truncatewords:75 }}
                                 </p>
                             </div>
                         </a>
