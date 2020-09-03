@@ -31,16 +31,6 @@
     <div class="pd-layout">
         <div class="hub-body">
             <section class="articles">
-                <a class="head" href="./article/20200828">
-                    <img class="head-image" src="https://cdn-ak.f.st-hatena.com/images/fotolife/a/akinen/20200828/20200828193403.jpg" alt="thumbnail">
-                    <div class="head-content">
-                        <h2 class="title">おさかなさん</h2>
-                        <p class="description">
-                            たべた……。 あかうおさん --- テレ東のYouTubeチャンネルをみていたら、サンリオの辻会長のインタビューが思いのほか良いことを言っていた。
-                        </p>
-                    </div>
-                </a>
-
                 <ul class="list">
                     {% for post in site.posts %}
                     <li class="card">
@@ -131,45 +121,6 @@ a {
     width: calc(100% - 304px - 32px);
     max-width: 624px;
 }
-.head {
-    position: relative;
-    display: block;
-    width: 100%;
-    margin-bottom: 48px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0px 4px 24px rgba(0,0,0,0.08);
-    overflow: hidden;
-    transition: box-shadow 0.25s ease 0s;
-}
-.head:hover {
-    box-shadow: none;
-}
-
-.head-image {
-    display: block;
-    width: 50%;
-    height: 100%;
-}
-.head-content {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    width: 50%;
-    padding: 16px 16px 0;
-    box-sizing: border-box;
-}
-.head-content .title {
-    font-size: 1.375rem;
-    line-height: 1.5;
-}
-.head-content .description {
-    font-size: .875rem;
-    line-height: 1.65;
-    margin-top: 8px;
-    font-weight: 400;
-    color: #757575;
-}
 
 .list {
     display: flex;
@@ -197,6 +148,47 @@ a {
     font-weight: 700;
 }
 .card-content .description {
+    font-size: .875rem;
+    line-height: 1.65;
+    margin-top: 8px;
+    font-weight: 400;
+    color: #757575;
+}
+
+/* １枚目のみ見た目を変更 */
+.card:first-child {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-bottom: 48px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 24px rgba(0,0,0,0.08);
+    overflow: hidden;
+    transition: box-shadow 0.25s ease 0s;
+}
+.card:first-child:hover {
+    box-shadow: none;
+}
+
+.card:first-child .card-image {
+    display: block;
+    width: 50%;
+    height: 100%;
+}
+.card:first-child .card-content {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    padding: 16px 16px 0;
+    box-sizing: border-box;
+}
+.card:first-child .card-content .title {
+    font-size: 1.375rem;
+    line-height: 1.5;
+}
+.card:first-child .card-content .description {
     font-size: .875rem;
     line-height: 1.65;
     margin-top: 8px;
