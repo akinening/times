@@ -124,16 +124,15 @@
             <aside class="side">
                 <h3 class="side-title">記事ランキング</h3>
                 <ul class="side-list">
-                    <li class="title"><a href="./article/20200828">おさかなさん</a></li>
-                    <li class="title"><a href="./article/20200827">藻すバーガー</a></li>
-                    <li class="title"><a href="./article/20200826">焼きそばをつくる技術</a></li>
-                    <li class="title"><a href="./article/20200825">なか卯でうっうー！</a></li>
-                    <li class="title"><a href="">忍法、お茶濁し。</a></li>
+                    {% for post in site.posts %}
+                    <li class="title">
+                        <a href="{{ post.url }}">{{ post.title }}</a>
+                    </li>
+                    {% endfor %}
                 </ul>
             </aside>
         </div>
     </div>
-    {{ site.posts }}
 </body>
 <style type="text/css">
 body {
