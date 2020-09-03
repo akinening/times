@@ -124,9 +124,9 @@
             <aside class="side">
                 <h3 class="side-title">記事ランキング</h3>
                 <ul class="side-list">
-                    {% for post in site.posts %}
+                    {% for page in site.posts %}
                     <li class="title">
-                        <a href="{{ post.url }}">{{ post.title }}</a>
+                        <a href="{{ page.url }}">{{ page.title }}</a>
                     </li>
                     {% endfor %}
                 </ul>
