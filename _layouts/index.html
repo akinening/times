@@ -42,82 +42,21 @@
                 </a>
 
                 <ul class="list">
+                    {% for post in site.posts %}
                     <li class="card">
-                        <a href="./article/20200827">
-                            <div class="card-image" style="background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/akinen/20200827/20200827170114.jpg);"></div>
-                            <div class="card-content">
-                                <h2 class="title">モッさん</h2>
-                                <p class="description">
-                                    ζ*'ヮ')ζ ＜ モスバーガーをたべたよ もす そのあとは、そのまま皮膚科へ。 さいきん診察の回転率が分かる…
-                                </p>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="card">
-                        <a href="./article/20200826">
+                        <a href="{{ site.baseurl }}{{ post.url }}">
                             <div class="card-image"
                                 style="background-image: url(https://assets.st-note.com/production/uploads/images/28284662/336ec6a57810587d2e90fbf91e33a424.jpg);">
                             </div>
                             <div class="card-content">
-                                <h2 class="title">マルちゃん</h2>
-                                <p class="description">
-                                    在宅勤務、マルちゃん焼きそばを焼く技術だけが高くなっていく…。 具材に下味をつけて蒸す＆強火で焼くとおいしい。
-                                </p>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="card">
-                        <a href="./article/20200825">
-                            <div class="card-image"
-                                style="background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/akinen/20200825/20200825230643.jpg);">
-                            </div>
-                            <div class="card-content">
-                                <h2 class="title">なか卯でうっうー！</h2>
-                                <p class="description">
-                                    ζ*’ヮ’)ζ＜ 数カ月ぶりに、なか卯で炭火焼き親子丼を食べたよ。 なか卯とやよい軒を混同する日々。
-                                </p>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="card">
-                        <a href="./article/20200824">
-                            <div class="card-image"
-                                style="background-image: url(https://assets.st-note.com/production/uploads/images/28284662/336ec6a57810587d2e90fbf91e33a424.jpg);">
-                            </div>
-                            <div class="card-content">
-                                <h2 class="title">たいとるだよ</h2>
+                                <h2 class="title">{{ post.title }}</h2>
                                 <p class="description">
                                     もじもじもじもじもじもじもじもじもじもじもじもじもじもじもじもじもじもじもじもじもじもじぴったん。
                                 </p>
                             </div>
                         </a>
                     </li>
-                    <li class="card">
-                        <a href="./article/20200823">
-                            <div class="card-image"
-                                style="background-image: url(https://assets.st-note.com/production/uploads/images/28284662/336ec6a57810587d2e90fbf91e33a424.jpg);">
-                            </div>
-                            <div class="card-content">
-                                <h2 class="title">たいとるだよ</h2>
-                                <p class="description">
-                                    もじもじもじもじもじもじもじもじもじもじもじもじもじもじもじもじもじもじもじもじもじもじぴったん。
-                                </p>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="card">
-                        <a href="./article/20200822">
-                            <div class="card-image"
-                                style="background-image: url(https://assets.st-note.com/production/uploads/images/28284662/336ec6a57810587d2e90fbf91e33a424.jpg);">
-                            </div>
-                            <div class="card-content">
-                                <h2 class="title">たいとるだよ</h2>
-                                <p class="description">
-                                    もじもじもじもじもじもじもじもじもじもじもじもじもじもじもじもじもじもじもじもじもじもじぴったん。
-                                </p>
-                            </div>
-                        </a>
-                    </li>
+                    {% endfor %}
                 </ul>
             </section>
             
