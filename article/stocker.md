@@ -3,7 +3,7 @@ layout: post
 title: Stocker
 ---
 
-# Stcoker
+# Stcokerができるまで
 
 この記事は現在執筆中です。
 
