@@ -1,6 +1,7 @@
 ---
 layout: post
 title: とんがりコーン五段
+image: https://cdn-ak.f.st-hatena.com/images/fotolife/a/akinen/20200822/20200822195027.jpg
 ---
 
 # とんがりコーン五段
