@@ -19,22 +19,24 @@
 </head>
 
 <body>
-    このページはつくりかけですにょ。おとといきやがれですにょ。
-    <nav>
-        <ul>
-            <li><a href="">TOP</a></li>
-            <li><a href="">グラフィック</a></li>
-            <li><a href="">UI</a></li>
-            <li><a href="">ロゴ</a></li>
-            <li><a href="">WEB</a></li>
-            <li><a href="">UX・戦略</a></li>
-            <li><a href="">ブランド</a></li>
-            <li><a href="">モーション</a></li>
-            <li><a href="">ツール</a></li>
-            <li><a href="">イラスト</a></li>
-            <li><a href="">その他</a></li>
-        </ul>
-    </nav>
+    <aside class="side-left">
+        <nav class="menu">
+            <a class="menu-list" href="">TOP</a>
+            <a class="menu-list" href="">グラフィック</a>
+            <a class="menu-list" href="">UI</a>
+            <a class="menu-list" href="">ロゴ</a>
+            <a class="menu-list" href="">WEB</a>
+            <a class="menu-list" href="">UX・戦略</a>
+            <a class="menu-list" href="">ブランド</a>
+            <a class="menu-list" href="">モーション</a>
+            <a class="menu-list" href="">ツール</a>
+            <a class="menu-list" href="">イラスト</a>
+            <a class="menu-list" href="">その他</a>
+        </nav>
+    </aside>
+    <section class="main">
+        このページはつくりかけですにょ。おとといきやがれですにょ。
+    </section>
 </body>
 <style type="text/css">
 body {
@@ -57,6 +59,33 @@ p,a,h1,h2,h3,h4,h5,h6 {
 }
 a {
     text-decoration: none;
+}
+
+.side-left {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 360px;
+    height: 100vh;
+    background-color: #333951;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    margin-top: 54px;
+    width: 255px;
+    float: right;
+}
+.menu-list {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 16px;
+    padding: 14px 10px;
+}
+
+.main {
+    margin-left: 360px;
 }
 </style>
 </html>
