@@ -35,7 +35,10 @@
         </nav>
     </aside>
     <section class="main">
-        このページはつくりかけですにょ。おとといきやがれですにょ。
+        <div class="banner">
+            <p>このページはつくりかけですにょ。<br>おとといきやがれですにょ。</p>
+            <img src="https://akinening.github.io/times/assets/penguin.png" alt="ぺんぎんさん">
+        </div>
     </section>
 </body>
 <style type="text/css">
@@ -85,7 +88,27 @@ a {
 }
 
 .main {
-    margin-left: 360px;
+    margin-left: 392px;
+}
+.banner {
+    display: inline-block;
+    width: 612px;
+    height: 164px;
+    background-color: #FEBF1B;
+    border-radius: 24px;
+    margin-top: 54px;
+    overflow: hidden;
+}
+.banner p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 32px;
+}
+.banner img {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 </style>
 </html>
