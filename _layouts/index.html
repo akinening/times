@@ -137,13 +137,20 @@ a {
 }
 .card-image {
     height: 102.4px;
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     border-radius: 8px;
-    transition: background-size 0.25s ease 0s;
+    transition: all 0.25s ease 0s;
 }
-.card:hover .card-image {
-    background-size: 104%;
+.card-image::before { 
+  content:"";
+  position:absolute; top:0; right:0; bottom:0; left:0;
+  background:inherit;
+  transition:inherit;
+}
+.card:hover .card-image::before { 
+  transform: scale(1.1);
 }
 .card-content {
     padding: 16px 0;
