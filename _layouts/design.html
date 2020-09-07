@@ -38,24 +38,23 @@
         <div class="hub-body">
             <section class="articles">
                 <ul class="list">
-                    {{ site.posts }}
-                    <!-- {% for post in site.posts %}
-                        {% if post.category == "design" %}
-                        <li class="card">
-                            <a href="{{ site.baseurl }}{{ post.url }}">
-                                <div class="card-image"
-                                    style="background-image: url( {{ post.image }} );">
-                                </div>
-                                <div class="card-content">
-                                    <h2 class="title">{{ post.title }}</h2>
-                                    <p class="description">
-                                        {{ post.content | strip_html | truncate: 60 }}
-                                    </p>
-                                </div>
-                            </a>
-                        </li>
-                        {% endif %}
-                    {% endfor %} -->
+                    {% for post in site.posts %}
+                    {% if post.category == "design" %}
+                    <li class="card">
+                        <a href="{{ site.baseurl }}{{ post.url }}">
+                            <div class="card-image"
+                                style="background-image: url( {{ post.image }} );">
+                            </div>
+                            <div class="card-content">
+                                <h2 class="title">{{ post.title }}</h2>
+                                <p class="description">
+                                    {{ post.content | strip_html | truncate: 60 }}
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% endfor %}
                 </ul>
             </section>
             
