@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <title>どうでもいい新聞</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="日々の生活から感じたこと、考えたことを書き残していきます。">
+    <meta name="keywords" content="八王子, ニュース, 新聞, 観光, グルメ, 広報, プレスリリース">
+
+    <meta property="og:title" content="どうでもいい新聞" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://akinening.github.io/times" />
+    <meta property="og:image" content="https://akinening.github.io/times/assets/banner.png" />
+    <meta property="og:site_name" content="どうでもいい新聞" />
+    <meta property="og:description" content="日々の生活から感じたこと、考えたことを書き残していきます。" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <meta name="google-site-verification" content="9Iff8A8k_1T3qJVKP02cSWR0KxKc6HkRecJUzdwdC3U" />
+</head>
+<body>
+    <header class="pd-layout">
+        <div class="c-header">
+            <a href="">
+                <img class="logo" src="logo.svg" alt="どうでもいい新聞">
+            </a>
+        </div>
+    </header>
+    <nav class="c-nav pd-layout" aria-label="グローバルナビゲーション">
+        <a class="menu" href="./about">
+            あばうと
+        </a>
+        <a class="menu" href="https://akinening.github.io/bookmark/" target="_blank">
+            でざいん
+        </a>
+    </nav>
+    <span class="bg-nav"></span>
+
+    <div class="pd-layout">
+        <div class="hub-body">
+            <section class="articles">
+                <ul class="list">
+                    {% for post in site.posts %}
+                    {% if page.category == "design" %}
+                    <li class="card">
+                        <a href="{{ site.baseurl }}{{ post.url }}">
+                            <div class="card-image"
+                                style="background-image: url( {{ post.image }} );">
+                            </div>
+                            <div class="card-content">
+                                <h2 class="title">{{ post.title }}</h2>
+                                <p class="description">
+                                    {{ post.content | strip_html | truncate: 60 }}
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+            </section>
+            
+            <aside class="side">
+                <h3 class="side-title">よく読まれている記事</h3>
+                <ul class="side-list">
+                    {% for post in site.posts %}
+                    <li class="title">
+                        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </aside>
+        </div>
+    </div>
+</body>
+<style type="text/css">
+body {
+    font-family: "Helvetica Neue",
+        Arial,
+        "Hiragino Kaku Gothic ProN",
+        "Hiragino Sans",
+        Meiryo,
+        sans-serif;
+}
+body, p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+p, a, h1, h2, h3, h4, h5, h6 {
+    color: #333;
+}
+a {
+    text-decoration: none;
+}
+
+.pd-layout {
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.c-header {
+    height: 88px;
+}
+.c-header .logo {
+    height: 32px;
+    margin: 28px 0;
+}
+.c-nav {
+    background-color: #febf1b;
+}
+.c-nav .menu {
+    display: inline-block;
+    padding: 14px 0;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+}
+.bg-nav {
+    display: block;
+    height: 80px;
+    background-color: #febf1b;
+}
+
+.hub-body {
+    display: flex;
+    justify-content: center;
+    margin-top: -64px;
+    margin-bottom: 144px;
+}
+.articles {
+    width: 100%;
+    max-width: 624px;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card {
+    list-style-type: none;
+    width: calc(50% - 16px);
+    margin-bottom: 32px;
+    background-color: #fff;
+}
+.card-image {
+    position: relative;
+    height: 102px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    transition: all 0.25s ease 0s;
+    overflow: hidden;
+}
+.card-image::before { 
+  content:"";
+  position:absolute; top:0; right:0; bottom:0; left:0;
+  background:inherit;
+  transition:inherit;
+}
+.card:hover .card-image::before { 
+  transform: scale(1.04);
+}
+.card-content {
+    padding: 16px 0;
+}
+.card-content .title {
+    line-height: 1.4em;
+    font-size: 16px;
+    font-weight: 700;
+}
+.card-content .description {
+    font-size: .875rem;
+    line-height: 1.65;
+    margin-top: 8px;
+    font-weight: 400;
+    color: #757575;
+}
+
+.card:first-child {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 240px;
+    margin-bottom: 48px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 24px rgba(0,0,0,0.08);
+    overflow: hidden;
+    transition: box-shadow 0.25s ease 0s;
+}
+.card:first-child:hover {
+    box-shadow: none;
+}
+.card:first-child .card-image {
+    display: block;
+    width: 50%;
+    height: 100%;
+    border-radius: 0;
+}
+.card:first-child .card-content {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    padding: 16px 16px 0;
+    box-sizing: border-box;
+}
+.card:first-child .card-content .title {
+    font-size: 1.375rem;
+    line-height: 1.5;
+}
+
+.side {
+    width: 100%;
+    max-width: 280px;
+    margin: 88px 0 0 32px;
+}
+@media screen and (max-width: 768px) {
+    .side {
+        display: none;
+    }
+}
+
+.side-title {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.side-list .title {
+    list-style-type: none;
+    padding: 8px 0;
+    border-top: 1px solid #e8e8e8;
+    font-size: .8125rem;
+    font-weight: 700;
+    line-height: 1.65;
+}
+.side-list .title:first-child {
+    border-top: none;
+}
+.side-list .title:nth-child(n+6) {
+    display: none;
+}
+</style>
+</html>
