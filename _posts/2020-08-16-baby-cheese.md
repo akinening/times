@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ベビーチーズのシール、なんとなく剥がしがち。
-category: dialy
+category: diary
 image: https://cdn-ak.f.st-hatena.com/images/fotolife/a/akinen/20200816/20200816131242.jpg
 ---
 

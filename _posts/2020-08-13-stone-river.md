@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 石を積んで、水の流れを変えてみた。
-category: dialy
+category: diary
 image: https://cdn-ak.f.st-hatena.com/images/fotolife/a/akinen/20200816/20200816003610.jpg
 ---
 

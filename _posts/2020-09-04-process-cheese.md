@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 時は金なり
-category: dialy
+category: diary
 image: https://cdn-ak.f.st-hatena.com/images/fotolife/a/akinen/20200904/20200904192256.jpg
 ---
 

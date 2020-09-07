@@ -1,7 +1,7 @@
 ---
 layout: post
 title: なか卯でうっうー！
-category: dialy
+category: diary
 image: https://cdn-ak.f.st-hatena.com/images/fotolife/a/akinen/20200825/20200825230643.jpg
 ---
 

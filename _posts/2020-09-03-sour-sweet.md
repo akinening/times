@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 酸いも甘いも噛み分ける
-category: dialy
+category: diary
 image: https://cdn-ak.f.st-hatena.com/images/fotolife/a/akinen/20200903/20200903191508.jpg
 ---
 
