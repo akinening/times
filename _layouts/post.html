@@ -9,10 +9,10 @@
 
     <meta property="og:title" content="{{ page.title }}｜どうでもいい新聞" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://akinening.github.io/times" />
-    <meta property="og:image" content="https://akinening.github.io/times/assets/banner.png" />
+    <meta property="og:url" content="{{ site.baseurl }}{{ page.url }}" />
+    <meta property="og:image" content="{{ page.image }}" />
     <meta property="og:site_name" content="{{ page.title }}｜どうでもいい新聞" />
-    <meta property="og:description" content="日々の生活から感じたこと、考えたことを書き残していきます。" />
+    <meta property="og:description" content="{{ content | strip_html | truncate: 40 }}" />
     <meta name="twitter:card" content="summary_large_image" />
 
     <meta name="google-site-verification" content="9Iff8A8k_1T3qJVKP02cSWR0KxKc6HkRecJUzdwdC3U" />
