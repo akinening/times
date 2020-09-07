@@ -1,6 +1,7 @@
 ---
 layout: post
 title: てんどんマン
+category: dialy
 image: https://cdn-ak.f.st-hatena.com/images/fotolife/a/akinen/20200830/20200830210037.jpg
 ---
 

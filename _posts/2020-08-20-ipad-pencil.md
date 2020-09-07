@@ -1,6 +1,7 @@
 ---
 layout: post
 title: iPadのお尻にペンを刺す日々。
+category: dialy
 image: https://cdn-ak.f.st-hatena.com/images/fotolife/a/akinen/20200820/20200820195926.jpg
 ---
 

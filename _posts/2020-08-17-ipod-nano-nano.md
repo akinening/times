@@ -1,6 +1,7 @@
 ---
 layout: post
 title: iPod nanoなの。
+category: dialy
 image: https://cdn-ak.f.st-hatena.com/images/fotolife/a/akinen/20200817/20200817153111.jpg
 ---
 

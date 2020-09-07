@@ -1,6 +1,7 @@
 ---
 layout: post
 title: おさかなさん
+category: dialy
 image: https://cdn-ak.f.st-hatena.com/images/fotolife/a/akinen/20200828/20200828193403.jpg
 ---
 

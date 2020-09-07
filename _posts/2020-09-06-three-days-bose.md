@@ -1,6 +1,7 @@
 ---
 layout: post
 title: さ…三日坊主
+category: dialy
 image: https://assets.st-note.com/production/uploads/images/28284662/336ec6a57810587d2e90fbf91e33a424.jpg
 ---
 

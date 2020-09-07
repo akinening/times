@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ガムの包み紙で鶴を折る。１回休み。
+category: dialy
 image: https://cdn-ak.f.st-hatena.com/images/fotolife/a/akinen/20200816/20200816004546.jpg
 ---
 
