@@ -39,7 +39,7 @@
             <section class="articles">
                 <ul class="list">
                     {% for post in site.posts %}
-                    {% if page.category == "design" %}
+                    {% if post.category == "design" %}
                     <li class="card">
                         <a href="{{ site.baseurl }}{{ post.url }}">
                             <div class="card-image"
