@@ -158,8 +158,13 @@ a {
 .article-content p img {
     display: block;
     width: calc(100% - 64px);
-    margin: 16px auto;
+    margin: 32px auto;
     border-radius: 8px;
+}
+@media screen and (max-width: 768px) {
+    .article-content p img {
+        width: 100%;
+    }
 }
 
 .control {
