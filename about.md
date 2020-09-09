@@ -5,6 +5,8 @@ title: あばうと
 
 # あばうと
 
+<img src="https://akinening.github.io/times/assets/about.jpg" alt="video">
+
 とあるデザイナーの日記です。
 
 家庭の生活を映したビデオテープのように、どうでもいい日常をダラダラと記録しています。
