@@ -15,4 +15,6 @@ image: https://akinening.github.io/times/assets/post/2020-09-14.jpg
 
 イラストやトンマナを考えるとき、色のアイデア出しに使えるかも？
 
+グラデーション版の [AwsmGradient](https://www.instagram.com/awsmgradient/) というアカウントもあるので、そちらもおすすめ。
+
 じゃあそれで(＝ω＝.)
