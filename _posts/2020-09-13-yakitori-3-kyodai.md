@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 継続のためのお約束条項
+title: やきとり３兄弟
 category: diary
 image: https://akinening.github.io/times/assets/post/2020-09-13.jpg
 ---
