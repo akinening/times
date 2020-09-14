@@ -11,6 +11,8 @@ image: https://assets.st-note.com/production/uploads/images/28284662/336ec6a5781
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">なるほどな〜〜〜 <a href="https://t.co/ZVvOcePuY1">pic.twitter.com/ZVvOcePuY1</a></p>&mdash; Akinen (@_akinen) <a href="https://twitter.com/_akinen/status/1305485987548524546?ref_src=twsrc%5Etfw">September 14, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+[音声はここでwavからmp4に変換した。](https://audio2video.me/)
+
 技術的に可能なのは知ってたけど、手元で動かせるとたのしいっすね。
 
 顔も声もリアルタイムに整形できるようになったら、リアルで会うよりもオンラインのほうが（見たいものしか見えないので）いいよね。という価値観になってくる気がした。もうすでにTikTokとかインスタがそうなってる感はあるけど…。
