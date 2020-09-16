@@ -1,0 +1,4 @@
+---
+layout: business
+title: びじねす
+---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 今いる業界についてのめも
-category: company
+category: business
 image: https://cdn-ak.f.st-hatena.com/images/fotolife/r/rinAtoZ/20170405/20170405001642.png
 ---
 
