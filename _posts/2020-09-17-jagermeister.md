@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Happy Time
-category: dialy
+category: diary
 image: https://akinening.github.io/times/assets/post/2020-09-17.jpg
 ---
 
@@ -9,10 +9,10 @@ image: https://akinening.github.io/times/assets/post/2020-09-17.jpg
 
 <img src="https://akinening.github.io/times/assets/post/2020-09-17.jpg" alt="jagermeister">
 
-度数の高いお酒の宅飲みはアカン・・・。
+度数の高いお酒の宅飲みはアカン
 
 〜〜〜
 
-ポエムはまだですの
+ポエムは少し考えたけど特に無かった・・・。
 
 じゃあそれで(＝ω＝.)
