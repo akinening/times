@@ -2,7 +2,7 @@
 layout: post
 title: モーショングラフィックの共有サービス「MOTIONBOX」
 category: design
-image: https://akinening.github.io/times/assets/post/2020-09-18.jpg
+image: https://akinening.github.io/times/assets/post/2020-09-19.jpg
 ---
 
 # モーショングラフィックの共有サービス「MOTIONBOX」
