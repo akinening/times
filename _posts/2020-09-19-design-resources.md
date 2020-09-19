@@ -1,11 +1,11 @@
 ---
 layout: post
-title: デザインリソースのURLまとめ記事を紹介
+title: デザインリソースのURLまとめ記事を紹介するだけ
 category: design
 image: https://akinening.github.io/times/assets/post/2020-09-19-2.jpg
 ---
 
-# デザインリソースのURLまとめ記事を紹介
+# デザインリソースのURLまとめ記事を紹介するだけ
 
 <a href="https://medium.com/@calderaricaio/growing-list-of-design-resources-67c72a5d4f56" target="_blank"><img src="https://akinening.github.io/times/assets/post/2020-09-19-2.jpg" alt="motionbox"></a>
 
