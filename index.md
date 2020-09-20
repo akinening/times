@@ -1,4 +1,4 @@
 ---
-layout: design
+layout: diary
 title: とっぷ
 ---
