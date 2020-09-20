@@ -1,4 +1,4 @@
 ---
-layout: index
+layout: design
 title: とっぷ
 ---
