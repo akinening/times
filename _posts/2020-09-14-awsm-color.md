@@ -17,4 +17,10 @@ image: https://akinening.github.io/times/assets/post/2020-09-14.jpg
 
 グラデーション版の [AwsmGradient](https://www.instagram.com/awsmgradient/) というアカウントもあるので、そちらもおすすめ。
 
+---
+
+2020-09-20追記。
+
+[Color Hunt](https://colorhunt.co/) というサイトもおすすめです。
+
 じゃあそれで(＝ω＝.)
