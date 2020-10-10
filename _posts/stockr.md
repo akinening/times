@@ -134,7 +134,7 @@ Reproさんの記事等を参考にしつつ文言のブラッシュアップ
 
 8月末までこんな画面を想定していた
 
-<img src="" alt="">
+<img src="https://akinening.github.io/times/assets/report.png" alt="診断画面">
 
 プロトタイプを触ってもらい、社内から意見を募集：仮説の検証
   - 自動で「あなたは他人思いです！」と性格診断：根拠がわかりづらい
