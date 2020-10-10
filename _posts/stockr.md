@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Stockr
+category: design
 ---
 
 # Stockrができるまでの取り組み
@@ -11,7 +12,7 @@ MVVの見直しと、コーポレートサイトのリニューアル（デザ�
 
 ４月：社員合宿で得たアイデアをもとに、空き時間にプロトタイピングしてみた
 
-<img src="" alt="">
+<img src="https://akinening.github.io/times/assets/2020-04.png" alt="プロトタイプ">
 
 
 ## 4ヶ月での開発
